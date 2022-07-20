@@ -2,7 +2,7 @@ import "dart:io"; //use dart:io to connect keyboard รับค่าจาก�
 import "package:meta/meta.dart";
 
 class GetValue {
-  //getting string, integer, and double class
+  //getting *string, integer, and double class
   String getString(
       //getting string method
       {@required String? strValueName,
@@ -21,7 +21,7 @@ class GetValue {
   }
 
   int getInt(
-      //getting interger method
+      //getting *interger method
       {@required String? strValueName,
       @required int? intMin,
       @required int? intMax,
@@ -47,7 +47,7 @@ class GetValue {
   }
 
   double getDouble(
-      //getting double method
+      //getting *double method
       {@required String? strValueName,
       @required double? douMin,
       @required double? douMax,
