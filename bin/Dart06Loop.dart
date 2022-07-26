@@ -11,6 +11,7 @@ void main() {
   var objDou2Format = NumberFormat('#,###,##0.00');
   var objGetInt = GetValue();
   
+  /*
   int intB = objGetInt.getInt(strValueName: "based number", intMin: 1, intMax: 25);
   var objFac = Factorial();
   print("$intB! = ${objDou2Format.format(objFac.fac(intB))}");
@@ -27,7 +28,7 @@ void main() {
   print(
       "Between $intStart-$intStop there are ${objDivisible.divis(intStart, intStop, intStep)} that are divisible by $intStep");
 
-
+*/
   depreciation();
   print("--------------------end of program--------------------");
 }
